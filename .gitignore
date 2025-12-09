@@ -12,6 +12,7 @@ out/
 dist/
 build/
 
+
 # === Environment Variables ===
 .env
 .env.local
