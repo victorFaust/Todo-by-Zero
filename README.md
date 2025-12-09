@@ -1,4 +1,4 @@
-# Todo app creation
+# Todo App
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
