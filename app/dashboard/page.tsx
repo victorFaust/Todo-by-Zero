@@ -15,6 +15,7 @@ interface Todo {
   title: string
   body: string
   created_at: string
+  user_id: string
 }
 
 export default function DashboardPage() {
@@ -76,6 +77,7 @@ export default function DashboardPage() {
         .from("todos")
         .insert([
           {
+            user_id: user.id,
             title: title.trim(),
             body: body.trim(),
           },
